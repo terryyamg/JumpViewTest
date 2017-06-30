@@ -14,6 +14,8 @@
 		2B1F80971F05EF4100B400E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1F80951F05EF4100B400E6 /* LaunchScreen.storyboard */; };
 		2B1F80A21F05EF4100B400E6 /* JumpViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F80A11F05EF4100B400E6 /* JumpViewTestTests.swift */; };
 		2B1F80AD1F05EF4100B400E6 /* JumpViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F80AC1F05EF4100B400E6 /* JumpViewTestUITests.swift */; };
+		2B1F80BC1F05EF6900B400E6 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1F80BB1F05EF6900B400E6 /* MyView.xib */; };
+		2B1F80BE1F05EF7F00B400E6 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F80BD1F05EF7F00B400E6 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2B1F80A81F05EF4100B400E6 /* JumpViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1F80AC1F05EF4100B400E6 /* JumpViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpViewTestUITests.swift; sourceTree = "<group>"; };
 		2B1F80AE1F05EF4100B400E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1F80BB1F05EF6900B400E6 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		2B1F80BD1F05EF7F00B400E6 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				2B1F808C1F05EF4100B400E6 /* AppDelegate.swift */,
 				2B1F808E1F05EF4100B400E6 /* ViewController.swift */,
+				2B1F80BA1F05EF5100B400E6 /* View */,
 				2B1F80901F05EF4100B400E6 /* Main.storyboard */,
 				2B1F80931F05EF4100B400E6 /* Assets.xcassets */,
 				2B1F80951F05EF4100B400E6 /* LaunchScreen.storyboard */,
@@ -123,6 +128,15 @@
 				2B1F80AE1F05EF4100B400E6 /* Info.plist */,
 			);
 			path = JumpViewTestUITests;
+			sourceTree = "<group>";
+		};
+		2B1F80BA1F05EF5100B400E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F80BB1F05EF6900B400E6 /* MyView.xib */,
+				2B1F80BD1F05EF7F00B400E6 /* MyView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +207,7 @@
 				TargetAttributes = {
 					2B1F80881F05EF4100B400E6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 22WV979VRD;
 						ProvisioningStyle = Automatic;
 					};
 					2B1F809C1F05EF4100B400E6 = {
@@ -232,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1F80BC1F05EF6900B400E6 /* MyView.xib in Resources */,
 				2B1F80971F05EF4100B400E6 /* LaunchScreen.storyboard in Resources */,
 				2B1F80941F05EF4100B400E6 /* Assets.xcassets in Resources */,
 				2B1F80921F05EF4100B400E6 /* Main.storyboard in Resources */,
@@ -259,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1F80BE1F05EF7F00B400E6 /* MyView.swift in Sources */,
 				2B1F808F1F05EF4100B400E6 /* ViewController.swift in Sources */,
 				2B1F808D1F05EF4100B400E6 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22WV979VRD;
 				INFOPLIST_FILE = JumpViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = terryyamg.JumpViewTest;
@@ -426,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22WV979VRD;
 				INFOPLIST_FILE = JumpViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = terryyamg.JumpViewTest;
